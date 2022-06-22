@@ -1,0 +1,8 @@
+{
+  "name": "my xpdc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "c870866c"
+}
