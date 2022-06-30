@@ -66,6 +66,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^3.6.0",
+    "cordova-res": "0.15.4",
     "eslint-plugin-react-hooks": "^4.6.0",
     "react-scripts": "5.0.1"
   },
