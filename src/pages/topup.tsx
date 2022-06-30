@@ -17,18 +17,18 @@ const topup: React.FC = () => {
       <IonContent>
       <img src="assets/images/people.jpg"></img>
         <IonCard className='isi'>
-          <IonItem>
+          
                 <IonRow className='rw'>
                   <img src='assets/images/mandiri.svg' className='logo'></img>
-                  <IonLabel className='labeltext'><a href=''>Transfer Via Bank Mandiri</a></IonLabel>
+                  <IonLabel className='labeltext'><a href='/payment/mandiri'>Transfer Via Bank Mandiri</a></IonLabel>
                 </IonRow>
-                </IonItem>
-                <IonItem>
-                <IonRow>
+               
+               
+                <IonRow className='rw'>
                   <img src='assets/images/bca.svg' className='logo'></img>
-                  <IonLabel className='labeltext'><a href=''>Transfer Via Bank BCA</a></IonLabel>
+                  <IonLabel className='labeltext'><a href='/payment/bca'>Transfer Via Bank BCA</a></IonLabel>
                 </IonRow>
-                </IonItem>
+                
             <IonCard>
                 <IonRow>
                 </IonRow>

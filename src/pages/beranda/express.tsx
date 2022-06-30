@@ -20,9 +20,9 @@ const express: React.FC = () => (
             </IonCard>
             <IonCard>
               <IonTitle color="primary">Informasi Penerima</IonTitle>
-              <IonItem>Nama Pengirim: Sesar Anthony Panjaitan</IonItem>
-              <IonItem>Nomor Pengirim: 081 XXX XXX</IonItem>
-              <IonItem>Alamat Pengirim: Lampung, Kabupaten Pringsewu, Gading Rejo, Yogyakarta, 35372</IonItem>
+              <IonItem>Nama Penerima: Sesar Anthony Panjaitan</IonItem>
+              <IonItem>Nomor Penerima: 081 XXX XXX</IonItem>
+              <IonItem>Alamat Penerima: Lampung, Kabupaten Pringsewu, Gading Rejo, Yogyakarta, 35372</IonItem>
             </IonCard>
             <IonCard>
               <IonTitle color="primary">Informasi Barang</IonTitle>

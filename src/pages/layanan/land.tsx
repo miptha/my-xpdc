@@ -8,7 +8,7 @@ const Land: React.FC = () => {
         <IonButtons slot="start">
           <IonBackButton color="primary" defaultHref='/beranda' ></IonBackButton>
         </IonButtons>
-          <IonTitle className='ion-text-center' color="primary">Air Freight</IonTitle>
+          <IonTitle className='ion-text-center' color="primary">Land Freight</IonTitle>
         </IonToolbar>
             </IonHeader>
         <IonContent color="warning">

@@ -9,6 +9,7 @@
     font-size: large;
     font-style: normal;
     z-index: 999; transform: translateY(-300%);
+    color: white;
 }
 .background-login{
     position: absolute;

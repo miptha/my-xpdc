@@ -64,6 +64,8 @@ import Register from './pages/Register';
 import land from './pages/layanan/land';
 import air from './pages/layanan/air';
 import sea from './pages/layanan/sea';
+import mandiri from './pages/payment/mandiri';
+import bca from './pages/payment/bca';
 
 setupIonicReact();
 
@@ -114,6 +116,8 @@ const App: React.FC = () => (
           <Route path="/layanan/land" component={land} exact={true}/>
           <Route path="/layanan/air" component={air} exact={true}/>
           <Route path="/layanan/sea" component={sea} exact={true}/>
+          <Route path="/payment/mandiri" component={mandiri} exact={true}/>
+          <Route path="/payment/bca" component={bca} exact={true}/>
           <Route exact path="/">
             <Redirect to="/beranda" />
           </Route>

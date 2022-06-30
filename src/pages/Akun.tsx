@@ -1,5 +1,5 @@
-import { IonBadge, IonCard, IonCol, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonImg, IonItem, IonItemDivider, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import { bagCheck, chevronForward, cube, notifications, receipt } from 'ionicons/icons';
+import { IonAvatar, IonBadge, IonCard, IonCardSubtitle, IonCardTitle, IonCol, IonContent, IonFab, IonFabButton, IonGrid, IonHeader, IonIcon, IonImg, IonItem, IonItemDivider, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
+import { bagCheck, cameraOutline, chevronForward, cube, notifications, receipt } from 'ionicons/icons';
 import './Akun.css';
 
 const Akun: React.FC = () => {
@@ -7,13 +7,32 @@ const Akun: React.FC = () => {
     <IonPage>
       <IonContent className='ion-content'>
       <IonFab vertical='top' horizontal='end'>
-      <IonFabButton className='button-notif' href='notifikasi'>
+      <IonFabButton className='button-notif' href='notifikasi' color="primary">
       <IonIcon icon={notifications}></IonIcon>
     </IonFabButton>
     </IonFab>
-    <IonCard className='element-profile'>
-      <IonImg src="assets/images/backgroundprofile.svg" alt="" className='img-profile'></IonImg>
-      <IonCard className='test'>
+    <IonGrid className="top">
+					<IonRow>
+						<IonCol size="12">
+							<IonAvatar className="avatar">
+								<img src="assets/icon/avatar.webp" />
+							</IonAvatar>
+							<div className="avatarUpload">
+								<IonIcon icon={ cameraOutline } />
+							</div>
+						</IonCol>
+					</IonRow>
+
+					<IonRow className="profileHeader">
+						<IonCol size="12" className="ion-text-center">
+							<IonCardTitle color="light">Suherdianata</IonCardTitle>
+							<IonCardSubtitle color="light">address@gmail.com</IonCardSubtitle>
+						</IonCol>
+					</IonRow>
+				</IonGrid>
+    {/* <IonCard className='element-profile'>
+      {/* <IonImg src="assets/images/backgroundprofile.svg" alt="" className='img-profile'></IonImg> */}
+      {/* <IonCard className='test'>
         <div className='col-1'>
           <img src='assets/images/foto.png' className='icon-foto'></img>
         </div>
@@ -23,8 +42,8 @@ const Akun: React.FC = () => {
           <small>Account: 0000012121XPDC</small>
         </div>
       </IonCard>
-    </IonCard>
-    <IonCard color="warning" className="box1">
+    // </IonCard> */} 
+    <IonCard>
      <IonRow className='ion-saldo'>
           <IonItem className='text1'><img src='assets/icon/SVG Uang.svg'></img><IonCol><div>Rp. 2.000.000<div>Jumlah Saldo Anda</div></div></IonCol></IonItem>
           <IonCol>

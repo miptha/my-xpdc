@@ -97,11 +97,11 @@
 .box1{
     /* background: rgb(58,180,171);
     background: linear-gradient(54deg, rgba(58,180,171,1) 0%, rgba(253,250,29,1) 50%, rgba(252,101,69,1) 100%); */
-    /* border-radius: 15px;
+    border-radius: 15px;
     background: transparent;
-    box-shadow: 5px 4px grey; */
-    background: rgb(35,23,230);
-    background: linear-gradient(62deg, rgba(35,23,230,1) 0%, rgba(43,189,205,1) 35%, rgba(255,255,255,1) 100%);
+    box-shadow: 5px 4px grey;
+    /* background: rgb(35,23,230);
+    background: linear-gradient(62deg, rgba(35,23,230,1) 0%, rgba(43,189,205,1) 35%, rgba(255,255,255,1) 100%); */
 }
 
 

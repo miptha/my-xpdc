@@ -54,7 +54,7 @@ const useBeranda: React.FunctionComponent = () => {
       </IonSlide>
     </IonSlides>
    
-      <IonCard color="warning" className="box1">
+      <IonCard>
       <IonRow className='ion-saldo'>
           <IonItem className='text1'><img src='assets/icon/SVG Uang.svg'></img><IonCol><div>Rp. 2.000.000<div>Jumlah Saldo Anda</div></div></IonCol></IonItem>
           <IonCol>
