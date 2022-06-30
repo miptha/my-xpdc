@@ -1,0 +1,54 @@
+/* .regis-button{
+    height:50px; 
+    width:100px; 
+    margin: 250px -50px; 
+    position:absolute;
+    padding: 0 0.35rem;
+    top:50%; 
+    left:50%;
+    font-family: Helvetica;
+    font-weight: bold;
+} */
+.text-center{
+    display: flex;
+    justify-content: end;
+}
+
+.text-center a{
+    color: #3888FF; font-size: 1.23rem; text-decoration: none; font-weight: bolder;
+}
+
+.regis{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem;
+}
+
+.text{
+    text-align: justify;
+    font-size: 25;
+    font-family:  Helvetica;
+    font-weight: bold;
+    color: black;
+    margin: 0.25rem;
+    
+}
+
+.card-regis{
+    z-index: 999; transform: translateY(-15%);  color:white;
+    border-radius: 15px;
+}
+
+
+
+.title{
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style:unset;
+    color: white;
+}
+
+.ion-text-center{
+    padding: 0; font-weight: bolder;
+}

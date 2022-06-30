@@ -1,0 +1,22 @@
+/* .card{
+    background-color: #d2f318;
+} */
+
+.card-besar{
+    background-color: #1F86FF;
+}
+
+
+.text{
+    color: white;
+    font-size: large;
+    margin: 0 0.95rem;
+    padding: 0 0.55rem;
+}
+
+.icon{
+    height: 10vh;
+    width: 10vw;
+    margin: 0 2rem;
+    padding: 0 0.95rem;
+}

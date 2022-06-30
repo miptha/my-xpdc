@@ -1,0 +1,15 @@
+.box{
+    box-shadow: 5px 4px #1F86FF;
+    border-radius: 10px;
+    border-style:dashed;
+}
+
+.body-order{
+    background: rgb(58,180,171);
+    background: linear-gradient(54deg, rgba(58,180,171,1) 0%, rgba(253,250,29,1) 50%, rgba(252,101,69,1) 100%);
+}
+
+.cari{
+    border-radius: 15px;
+    box-shadow: 5px 4px grey;
+}

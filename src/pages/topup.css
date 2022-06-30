@@ -1,0 +1,33 @@
+.logo{
+    height: 12vh;
+    width: 14vw;
+    margin: 0 2rem;
+}
+
+.labeltext{
+    align-items: center;
+    text-align: center;
+    margin: 0 0.85rem;
+    padding: 1.5rem 0.25rem;
+    font-size: large;
+}
+
+.labeltext a{
+    text-decoration: none;
+    color: black;
+}
+
+.rw{
+    border-radius: 15px;
+    border-color:#3888FF ;
+}
+
+.isi{
+    height: 25vh;
+    z-index: 999; transform: translateY(-99%);  color:white;
+    border-radius: 15px;
+    border-color: #3888FF;
+    box-shadow: 6px 4px#3888FF;
+}
+
+
