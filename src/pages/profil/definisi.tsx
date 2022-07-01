@@ -1,5 +1,6 @@
 import { IonBackButton, IonButtons, IonCard, IonCol, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
 import { notifications } from "ionicons/icons";
+import './definisi.css'
 
 const definisi: React.FC = () => (
     <IonPage>
@@ -11,79 +12,80 @@ const definisi: React.FC = () => (
           <IonTitle className='ion-text-center' color="primary">Definisi</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
+      <IonContent color="warning" >
+        
       <IonList>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
-            <p className="justify">
+            <p>
                 1. PT. Xentra Platform Digital Cargo adalah perusahaan yang berbadan
                 hukum yang bergerak di bidang jasa pengiriman yang selanjutnya disebut sebagai XPDC.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
-            <p className="justify">
+            <p>
                 2. Jasa Pengiriman adalah layanan yang disediakan oleh XPDC mencakup
                 penjemputan dan pengantaran BARANG KIRIMAN dari satu tempat ke tempat lain.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
-            <p className="justify">
+            <p>
                 3. Nomor Pelacakan adalah nomor Jasa Pengiriman yang diterbitkan setelah
                 pemesanan pengiriman dilakukan yang berisi informasi Barang Kiriman
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
-            <p className="justify">
+            <p>
                 4. Barang Kiriman adalah semua bentuk barang / paket, dokumen atau surat yang
                 dikirim melalui XPDC.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
-            <p className="justify">
+            <p>
                 5. Pelanggan adalah individu yang melakukan pemesanan dan pembayaran Jasa
                 Pengiriman XPDC.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
-            <p className="justify">
+            <p>
                 6. Pengirim adalah individu yang memberikan Barang Kiriman
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
-            <p className="justify">
+            <p>
                 7. XPDC berhak namun tidak wajib untuk membuka dan memeriksa BARANG KIRIMAN
                 disertai dokumentasi tanpa pemberitahuan ke PELANGGAN/PENGIRIM/PENERIMA
                 terlebih dahulu dengan alasan keselamatan, keamanan atau alasan sesuai regulasi lainnya.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
-            <p className="justify">
+            <p>
                 8. Pengirim adalah individu yang memberikan barang kiriman
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
-            <p className="justify">
+            <p>
                 9. Penerima adalah individu yang menerima Barang Kiriman
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
             <p>
                 10. Expeditor adalah individu yang merupakan bagian dari XPDC yang bertugas
@@ -91,7 +93,7 @@ const definisi: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def" color="primary">
             <div>
             <p>
                 11. Barang Terlarang adalah BARANG KIRIMAN yang tidak diperbolehkan untuk
@@ -100,7 +102,7 @@ const definisi: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="def">
             <div>
             <p>
                 12. Keadaan Memaksa (force majeure) adalah keadaan yang diakibatkan baik karena
@@ -110,14 +112,14 @@ const definisi: React.FC = () => (
             </p>
             </div>
       </IonItem>
-    <IonItem>
+    <IonItem className="def" color="primary">
             <div>
             <p>
                 13. Berat Aktual adalah berat yang diperoleh dari hasil penimbangan dari alat timbang
             </p>
             </div>
     </IonItem>
-    <IonItem>
+    <IonItem className="def">
             <div>
             <p>
                 14. Berat Volume adalah berat yang diperoleh dari pengukuran panjang, lebar, dan

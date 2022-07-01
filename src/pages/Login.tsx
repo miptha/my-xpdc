@@ -15,51 +15,39 @@ const Login: React.FC = () => {
         <IonPage color="primary">
             
             <IonHeader>
-                {/* <IonToolbar color="primary">
-                    <IonTitle>My XPDC</IonTitle>
-                </IonToolbar> */}
+                <IonToolbar color="primary">
+                    <IonTitle>Selamat datang kembali di My XPDC</IonTitle>
+                </IonToolbar>
                 
             </IonHeader>   
-            <IonContent color="primary" className="ion-padding">
-            <IonLabel className="lb">Selamat datang kembali,</IonLabel>
+            <IonContent color="light" className="ion-padding">
+            {/* <IonLabel className="lb">Selamat datang kembali,</IonLabel> */}
             <img src="assets/images/login.png" className="icon-log"></img>
             {/* <IonCard className="card-login"> */}
-                        <IonCard className="card1">
+            <div className="card1">
+                        <IonCard className="">
                         <IonItem >
                             <IonLabel position="stacked">Email</IonLabel>
-                            <IonInput placeholder="  Masukan Email"><IonImg src="assets/icon/email.svg" slot='start' className='icon-loc'></IonImg></IonInput>
+                            <IonInput placeholder="Masukan Email" className="input"><IonImg src="assets/icon/email.svg" slot='start' className='icon-loc'></IonImg></IonInput>
                         </IonItem>
                         </IonCard>
-                        <IonCard className="card1">
+                        <IonCard className="">
                             <IonItem className="it">
                                 <IonLabel position="stacked">Password</IonLabel>
-                                <IonInput placeholder="  Masukan Password" ><IonImg src="assets/icon/psswd.svg" slot='start' className='icon-loc'></IonImg></IonInput>
+                                <IonInput placeholder="Masukan Password" className="input"><IonImg src="assets/icon/psswd.svg" slot='start' className='icon-loc'></IonImg></IonInput>
                             </IonItem>
                         </IonCard>
-                        <IonItem color="primary" className="lupa">Lupa password?</IonItem>
-                        <IonButton className="login-button" href="/beranda" color="light">Masuk</IonButton>
-                        <IonItem color="primary" className="atau">Atau</IonItem>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <IonCard className="google">
-                        <IonItem href="">      
-                        <IonCol className="text-center">
-                        <img className="img" src="assets/images/google.png"></img>
-                        <br></br>
-                        <IonLabel >
-                        Masuk dengan Google
-                     </IonLabel>  
-                 </IonCol>    
-            </IonItem>
-            </IonCard>
-                <IonItem color="primary" className="row">
-                    <IonRow className="row">
-                    <div>Belum memiliki akun? </div>
-                    <div><a href="/Register">Daftar</a></div>
-                    </IonRow>
-                </IonItem>
-            {/* </IonCard> */}
+                        <div className="dv">
+                      <a className="lp" href="/lupapassword">Lupa Password?</a>
+                       <IonButton className="masuk" color="primary" expand="block">Masuk</IonButton>
+                       <IonLabel>Atau</IonLabel>
+                       <IonButton className="google" color="light"><img src="assets/images/google.svg" width="35"></img>Masuk dengan Google</IonButton>
+                       <a className="blm">Belum memiliki akun?  <a href="/Register" className="reg">Daftar disini</a></a>
+                      
+                       </div>
+                    
+                </div>
+                
           
             </IonContent>
         </IonPage>

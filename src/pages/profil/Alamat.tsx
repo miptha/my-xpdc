@@ -73,11 +73,11 @@ const Alamat: React.FC = () => {
               </IonButtons>
             </IonToolbar>
           </IonHeader>
-          <IonContent className="ion-padding">
+          <IonContent className="ion-padding" color="primary">
          
-            <IonCard>
-            <IonList>
-              <IonItem>
+            <IonCard >
+            <IonList >
+              <IonItem >
                 <IonLabel position="stacked">Nama</IonLabel>
                 <IonInput placeholder="   Masukan Nama"></IonInput>
               </IonItem>

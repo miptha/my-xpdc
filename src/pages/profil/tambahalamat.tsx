@@ -12,7 +12,6 @@ const tambahalamat: React.FC = () => (
         </IonToolbar>
       </IonHeader>
       <IonContent color="primary">
-        
         <IonCard>
             <IonItem>
                 <IonLabel position="stacked">Alamat</IonLabel>

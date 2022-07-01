@@ -5,7 +5,7 @@ import './Akun.css';
 const Akun: React.FC = () => {
   return (
     <IonPage>
-      <IonContent className='ion-content'>
+      <IonContent className='ion-content' >
       <IonFab vertical='top' horizontal='end'>
       <IonFabButton className='button-notif' href='notifikasi' color="primary">
       <IonIcon icon={notifications}></IonIcon>
@@ -44,7 +44,7 @@ const Akun: React.FC = () => {
       </IonCard>
     // </IonCard> */} 
     <IonCard>
-     <IonRow className='ion-saldo'>
+     <IonRow className='ion-saldo' >
           <IonItem className='text1'><img src='assets/icon/SVG Uang.svg'></img><IonCol><div>Rp. 2.000.000<div>Jumlah Saldo Anda</div></div></IonCol></IonItem>
           <IonCol>
             <a href='/topup'>

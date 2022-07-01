@@ -74,12 +74,12 @@
 }
 
 .button-menu{
-    max-width: 28.5vw;
-    max-height: 8.5vh;
+    max-width: 22.5vw;
+    max-height: 6.5vh;
     padding: 0 0.25rem;
-    margin: 0.2rem;
+    margin: 0.1rem;
     display: flex; flex-direction: row;
-    border: solid 1.2px #D9D9D9;
+    /* border: solid 1.2px #D9D9D9; */
     border-radius: 12px;
 }
 
@@ -89,7 +89,6 @@
     /* margin: 0 0.75rem; */
     padding: 1rem 0.25rem;
     border-radius: 15px;
-    font-weight: bold;
     font-family: Helvetica;
  
 }
@@ -227,6 +226,5 @@
   }
 
   .ion-saldo{
-    border-radius: 15px;
- 
+    border-radius: 15px #3888FF;
   }

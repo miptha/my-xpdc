@@ -36,7 +36,7 @@ const useBeranda: React.FunctionComponent = () => {
     <IonPage ref={page}>
           <IonHeader>
     </IonHeader>
-      <IonContent className='ion-content'>
+      <IonContent className='ion-content' color="primary">
       <IonFab vertical='top' horizontal='end'>
       <IonFabButton className='button-notif' href='/notifikasi'>
       <IonIcon icon={notifications} ></IonIcon>
@@ -84,7 +84,7 @@ const useBeranda: React.FunctionComponent = () => {
             <IonButton><IonIcon icon={search} slot="end" className='icon-search'></IonIcon></IonButton>
           </IonItem>
           </IonCard>
-          <IonLabel color="primary" className='label'>CEK ONGKIR</IonLabel>
+          <IonLabel className='label'>CEK ONGKIR</IonLabel>
           <IonCard>
             <IonItem>
               <IonLabel>Asal</IonLabel>
@@ -170,11 +170,11 @@ const useBeranda: React.FunctionComponent = () => {
             </IonCard>
           
           </IonCard>
-          <IonItem> <IonLabel color="primary">LAYANAN</IonLabel></IonItem>
+           <IonLabel className='label'>LAYANAN</IonLabel>
           <IonRow>
-            <IonCol className='button-menu'> <IonImg src="assets/icon/land.svg" className='icon-land' alt=""></IonImg> <a href='/layanan/land'><IonLabel className='label-menu-button' color="dark">Land Freight</IonLabel> </a></IonCol>
-            <IonCol className='button-menu'> <IonImg src="assets/icon/air.svg" className='icon-air' alt=""></IonImg> <a href='/layanan/air'><IonLabel className='label-menu-button' color="dark">Air Freight</IonLabel> </a></IonCol> 
-            <IonCol className='button-menu'> <IonImg src="assets/icon/sea.svg" className='icon-sea' alt=""></IonImg> <a href='/layanan/sea'><IonLabel className='label-menu-button' color="dark">Sea Freight</IonLabel> </a></IonCol>  
+            <IonCard><IonCol className='button-menu'> <IonImg src="assets/icon/land.svg" className='icon-land' alt=""></IonImg> <a href='/layanan/land'><IonLabel className='label-menu-button' >Land Freight</IonLabel> </a></IonCol></IonCard>
+            <IonCard><IonCol className='button-menu'> <IonImg src="assets/icon/air.svg" className='icon-air' alt=""></IonImg> <a href='/layanan/air'><IonLabel className='label-menu-button' >Air Freight</IonLabel> </a></IonCol></IonCard> 
+            <IonCard><IonCol className='button-menu'> <IonImg src="assets/icon/sea.svg" className='icon-sea' alt=""></IonImg> <a href='/layanan/sea'><IonLabel className='label-menu-button' >Sea Freight</IonLabel> </a></IonCol></IonCard> 
             </IonRow>
             </IonContent>
           

@@ -1,3 +1,4 @@
+
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
@@ -52,20 +53,19 @@ import definisi from './pages/profil/definisi';
 import jenis from './pages/profil/jenis';
 import profilescreen from './pages/profil/profilescreen';
 import express from './pages/beranda/express';
-
 import ubahnama from './pages/profil/ubahnama';
 import ubahnomor from './pages/profil/ubahnomor';
 import ubahemail from './pages/profil/ubahemail';
 import ubahpassword from './pages/profil/ubahpassword';
-import regular from './pages/beranda/regular';
 import ringkaspengiriman from './pages/ringkaspengiriman';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import land from './pages/layanan/land';
-import air from './pages/layanan/air';
-import sea from './pages/layanan/sea';
 import mandiri from './pages/payment/mandiri';
 import bca from './pages/payment/bca';
+import land from './pages/layanan/land';
+import sea from './pages/layanan/sea';
+import air from './pages/layanan/air';
+import lupapassword from './pages/lupapassword';
 
 setupIonicReact();
 
@@ -109,17 +109,18 @@ const App: React.FC = () => (
           <Route path="/profil/ubahnomor" component={ubahnomor} exact={true}/>
           <Route path="/profil/ubahemail" component={ubahemail} exact={true}/>
           <Route path="/profil/ubahpassword" component={ubahpassword} exact={true}/>
-          <Route path="/beranda/regular" component={regular} exact={true}/>
+   
           <Route path="/ringkaspengiriman" component={ringkaspengiriman} exact={true}/>
           <Route path="/Login" component={Login} exact={true}/>
           <Route path="/Register" component={Register} exact={true}/>
-          <Route path="/layanan/land" component={land} exact={true}/>
-          <Route path="/layanan/air" component={air} exact={true}/>
-          <Route path="/layanan/sea" component={sea} exact={true}/>
           <Route path="/payment/mandiri" component={mandiri} exact={true}/>
           <Route path="/payment/bca" component={bca} exact={true}/>
+          <Route path="/layanan/land" component={land} exact={true}/>
+          <Route path="/layanan/sea" component={sea} exact={true}/>
+          <Route path="/layanan/air" component={air} exact={true}/>
+          <Route path="/lupapassword" component={lupapassword} exact={true}/>
           <Route exact path="/">
-            <Redirect to="/beranda" />
+            <Redirect to="/Login" />
           </Route>
         </IonRouterOutlet>
 
@@ -149,3 +150,4 @@ const App: React.FC = () => (
 );
 
 export default App;
+

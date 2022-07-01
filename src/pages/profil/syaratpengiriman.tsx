@@ -1,5 +1,6 @@
 import { IonBackButton, IonButtons, IonCard, IonCol, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
 import { notifications } from "ionicons/icons";
+import './syaratpengiriman.css'
 
 const syaratpengiriman: React.FC = () => (
     <IonPage>
@@ -11,20 +12,21 @@ const syaratpengiriman: React.FC = () => (
           <IonTitle className='ion-text-center' color="primary">Syarat Pengiriman</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
+      <IonContent color="primary">
+      <IonCard>
       <IonList>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p>
                 1. Semua harga dan peraturan dianggap sah dan disepakati oleh Pelanggan, apabila
                 Pelanggan sudah menyetujui syarat dan ketentuan pengiriman setelah melakukan
                 pemesanan Jasa Pengiriman.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 2. Pelanggan wajib memberitahukan dengan jelas dan benar isi dan nilai Barang
                 Kiriman. Keterangan yang tidak benar mengenai hal tersebut sepenuhnya menjadi
                 tanggung jawab Pelanggan. XPDC tidak bertanggung jawab atas kerugian/kejadian
@@ -32,9 +34,9 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 3. Pengirim wajib mengemas Barang Kirimannya nya dengan baik untuk melindungi
                 isi Barang Kiriman nya selama pengangkutan. Apabila timbul suatu kerugian yang
                 disebabkan karena pengemasan yang kurang sempurna, maka kerugian tersebut bukan
@@ -42,9 +44,9 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 4. Biaya Jasa Pengiriman XPDC dihitung menggunakan dengan metode perhitungan
                 yang mana akan digunakan salah satu yang terbesar antara berat aktual atau berat dimensi
                 dan setiap Barang Kiriman dapat ditimbang dan diukur ulang kembali oleh XPDC.
@@ -54,9 +56,9 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 5. Pelanggan bertanggung jawab untuk melindungi Barang Kiriman dengan
                 asuransi yang memadai dan menanggung biaya premi yang berlaku. Ganti rugi untuk
                 barang yang diasuransikan adalah sesuai dengan ketentuan asuransi yang berlaku di
@@ -66,26 +68,26 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 6. Apabila tidak ada ada keluhan dari Penerima pada saat Barang Kiriman
                 diserahkan, maka Barang Kiriman dianggap telah diterima dengan baik dan benar.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 7. XPDC berhak namun tidak wajib untuk membuka dan memeriksa Barang Kiriman
                 disertai dokumentasi tanpa pemberitahuan ke Pelanggan/Pengirim/Penerima
                 terlebih dahulu dengan alasan keselamatan, keamanan atau alasan sesuai regulasi lainnya.
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 8. XPDC tidak bertanggung jawab atas kerugian yang timbul dari keadaan di luar kendali
                 atau Force Majeure termasuk kehilangan dan kerusakan atas Isi Barang Kiriman
                 baik dari segi jenis atau jumlah dan kerugian lainnya yang secara materi atau non-materi
@@ -93,9 +95,9 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
-            <p className="justify">
+            <p >
                 9. Dalam hal Barang Kiriman hilang akibat dari kelalaian XPDC, Pelanggan
                 berhak mengajukan klaim paling lambat 3 (tiga) hari setelah XPDC menyatakan bahwa
                 benar Barang Kiriman tidak dapat ditemukan. Apabila Pelanggan tidak
@@ -104,7 +106,7 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
             <p>
             10. Pengajuan klaim dilakukan oleh Pelanggan dengan mengirimkan pernyataan tertulis
@@ -129,7 +131,7 @@ const syaratpengiriman: React.FC = () => (
                 <br></br>
                 Dan dikirim ke kantor pusat XPDC yang beralamat di :
             </IonRow>
-            <IonRow>
+            <IonRow className="syt">
             PT. Xentra Platform Digital Cargo<br></br>
             Ruko Duta Niaga 2 No. 8 Jalan Husein Sastranegara<br></br>
             Kel. Jurumudi Kec. Benda Kota Tangerang<br></br>
@@ -138,7 +140,7 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
             <p>
             11. Selain perjanjian atau syarat dan ketentuan yang tertulis pada Nomor Pelacakan
@@ -148,7 +150,7 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-      <IonItem>
+      <IonItem className="syt">
             <div>
             <p>
             12. Selain perjanjian atau syarat dan ketentuan yang tertulis pada Nomor Pelacakan
@@ -158,7 +160,7 @@ const syaratpengiriman: React.FC = () => (
             </p>
             </div>
       </IonItem>
-    <IonItem>
+    <IonItem className="syt">
             <div>
             <p>
                 Pembatalan Jasa Pengiriman dibagi menjadi 2 (dua) :
@@ -177,6 +179,7 @@ const syaratpengiriman: React.FC = () => (
             </div>
     </IonItem>
     </IonList>
+    </IonCard>
       </IonContent>
     </IonPage>
 );

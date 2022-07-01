@@ -1,16 +1,13 @@
-.login-button{
-    height:50px; 
-    width:100px; 
-    margin: 0 -50px; 
-    position:absolute;
-    padding: 0 0.35rem;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: large;
-    font-style: normal;
-    z-index: 999; transform: translateY(-300%);
+.masuk{
+    /* /* height:50px; 
+    width:100px;  */
+    margin: 0.75rem;
+    /* position:absolute;
+    padding: 0 0.35rem; */
+    
     color: white;
 }
+
 .background-login{
     position: absolute;
     z-index: -999;
@@ -29,12 +26,12 @@
 }
 
 .google{
-    width: 70vw;
-    margin: 0 35px; 
-    border-radius: 15px;
-    background: transparent;
-    z-index: 999; transform: translateY(-300%);
-    border: solid 1.5px #D9D9D9;
+    margin: 0.75rem;
+    /* position:absolute;
+    padding: 0 0.35rem; */
+   border: solid 1px black;
+    color: white;
+    border-radius: 12px;
 }
 .img{
     height: 4vh;
@@ -111,14 +108,32 @@
 
 .card1{
     border-color: black;
-    border-radius: 15px;
-    z-index: 999; transform: translateY(-200%);
+    z-index: 999; transform: translateY(-48%);
 }
 
-.lupa{
-    z-index: 999; transform: translateY(-280%);
+.blm{
     text-decoration: none;
-    color: white;
+    text-align: center;
+    padding-left: 0.7rem;
+    color: black;
+}
+.reg{
+    text-decoration: none;
+}
+
+.lp{
+    text-decoration: none;
+    color: black;
+   
+    text-align: end;
+    margin-bottom:0;
+    padding-right: 0.5rem;
+}
+
+.dv{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .atau{
@@ -129,4 +144,11 @@
     align-items: center;
     margin: 0 150px; 
     font-size: larger;
+}
+.input{
+    margin-bottom: 0.5rem;
+}
+
+.icon-loc{
+    margin-right: 0.5rem;
 }

@@ -1,5 +1,7 @@
-import { IonBackButton, IonButtons, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
-import { notifications } from "ionicons/icons";
+import { IonBackButton, IonButtons, IonCard, IonContent, IonFab, IonFabButton, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
+import { copyFile } from "fs";
+import { copy, notifications, paperPlaneOutline } from "ionicons/icons";
+import './tentangkami.css';
 
 const tentangkami: React.FC = () => (
     <IonPage>
@@ -11,15 +13,13 @@ const tentangkami: React.FC = () => (
           <IonTitle className='ion-text-center' color="primary">Tentang Kami</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
-      <IonList>
-      <IonItem>
+      <IonContent >
+      <IonCard>
+      <IonItem className="txt" color="primary">
       <div>
             <p className="justify">
-                <IonRow>
+                <IonRow className="txt">
                 PT. XENTRA PLATFORM DIGITAL CARGO (XPDC) merupakan pengembangan bisnis dalam
-                </IonRow>
-                <IonRow>
                 Layanan pengiriman domestik berbasis aplikasi, mengubah cara pengiriman barang/ kargo secara signifikan di Indonesia (khususnya) menjadi lebih mudah dilakukan. 
                 </IonRow>
                 <IonRow>
@@ -27,32 +27,39 @@ const tentangkami: React.FC = () => (
                 </IonRow>
             </p>
             </div>
-    
       </IonItem>
-      <IonItem>
+      </IonCard>
+      <IonCard >
+      <IonItem color="primary">
         <IonRow>
-            6S Culture
-            <IonRow>
+            6S Culture: 
+            <IonRow className="txt">
+              <br></br>
             a. Sort: Memilah perihal proses yang kurang efisien agar dapat melakukan kegiatan logistik yang lebih ringkas, cepat dan aman.
             </IonRow>
-            <IonRow>
+            <br></br>
+            <IonRow className="txt">
             b. Straighten: Memastikan bahwa semua proses telah terorganisir dengan baik sesuai dengan tahapan dan aturan yang ditentukan. Hal ini sesuai dengan cara kerja XPDC yang tersusun dengan jelas dan baik.
             </IonRow>
-            <IonRow>
+            <br></br>
+            <IonRow className="txt">
             c. Shine: Berupaya untuk menjaga kebersihan tempat kerja, fasilitas lainnya termasuk armada yang kami gunakan untuk melakukan pengiriman secara teratur. Sehingga memastikan barang pelanggan diterima dengan baik dan bersih.
             </IonRow>
-            <IonRow>
+            <br></br>
+            <IonRow className="txt">
             d. Standardize: Menciptakan standarisasi peraturan dan proses dari ketiga poin sebelumnya. Menjadikan budaya yang dilakukan secara rutin setiap waktunya oleh tim XPDC.
             </IonRow>
-            <IonRow>
+            <br></br>
+            <IonRow className="txt">
             e. Safety: Menciptakan lingkungan kerja yang aman dan sehat adalah komitmen bersama dari XPDC. Memastikan tim XPDC peduli dan saling membantu dalam mengamankan pekerjaan yang dilakukan.
             </IonRow>
-            <IonRow>
+            <br></br>
+            <IonRow className="txt">
             f. Sustain: Mempertahankan budaya disiplin untuk aturan dan tahapan kerja yang sudah jelas dibentuk sebelumnya. Guna memastikan tim XPDC menjalankan tahapan proses kerja secara jelas.
             </IonRow>
         </IonRow>
       </IonItem>
-      </IonList>
+      </IonCard>
       </IonContent>
     </IonPage>
 );
